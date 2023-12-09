@@ -4,6 +4,12 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/6b5efca6-54d5-4c4d-893d-86159c6c5619/resourceGroups/sp-sample-rg/providers/microsoft.insights/components/sp-sample-app</ApplicationInsightsResourceId>
+    <UserSecretsId>42bee67f-3df4-41ea-ac4f-54886f0359e9</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
