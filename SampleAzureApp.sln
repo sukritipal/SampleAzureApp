@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.AzureCosmosDb.Demo",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mvc.StorageAccount.Demo", "Mvc.StorageAccount.Demo\Mvc.StorageAccount.Demo.csproj", "{A761BCCB-0B67-4650-9CE6-0F7B41B63B20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.QueueConsumer.Demo", "Console.QueueConsumer.Demo\Console.QueueConsumer.Demo.csproj", "{ED461368-C5E5-4E06-9D18-0E8A0EA5E069}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.QueueConsumer.Demo", "Console.QueueConsumer.Demo\Console.QueueConsumer.Demo.csproj", "{ED461368-C5E5-4E06-9D18-0E8A0EA5E069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.ServiceBusSender.Demo", "Console.ServiceBusSender.Demo\Console.ServiceBusSender.Demo.csproj", "{2C3FF49D-B510-473E-BDE1-E82077CF4116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.ServiceBusReceiver.Demo", "Console.ServiceBusReceiver.Demo\Console.ServiceBusReceiver.Demo.csproj", "{BD48EC9B-2BB8-49CD-847D-07D47FA6B0BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{ED461368-C5E5-4E06-9D18-0E8A0EA5E069}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED461368-C5E5-4E06-9D18-0E8A0EA5E069}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED461368-C5E5-4E06-9D18-0E8A0EA5E069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C3FF49D-B510-473E-BDE1-E82077CF4116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3FF49D-B510-473E-BDE1-E82077CF4116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3FF49D-B510-473E-BDE1-E82077CF4116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3FF49D-B510-473E-BDE1-E82077CF4116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD48EC9B-2BB8-49CD-847D-07D47FA6B0BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD48EC9B-2BB8-49CD-847D-07D47FA6B0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD48EC9B-2BB8-49CD-847D-07D47FA6B0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD48EC9B-2BB8-49CD-847D-07D47FA6B0BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
